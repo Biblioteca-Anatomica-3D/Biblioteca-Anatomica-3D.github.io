@@ -12,19 +12,19 @@ sass:
 # When modifying this file, take care to preserve the indentation. This is YAML ...
 
 # Main Headline, name required, subtitle optional
-name: Biblioteca anatómica 3D
-subtitle: Modelos 3D anatómicos
+name: Biblioteca Anatómica 3D
+subtitle: Modelos 3D de anatomía
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: Fuse Core
+title: Biblioteca Anatómica 3D
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
 # 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
 robots:
-    description: One line of text describing the content of the page in less than 140 characters.
-    keywords: foo, bar, baz
-    crawl: index,follow
+    description: anatomy 3D models.
+    keywords: anatomy, 3d
+    crawl: index, follow
 
 # website address when deployed, also given as canonical link
 url: https://biblioteca-anatomica-3d.github.io/
@@ -133,7 +133,7 @@ links:
   - github:
       name: GitHub
       show: true
-      href: https://github.com/tsjensen
+      href: https://github.com/Biblioteca-Anatomica-3D/BodyParts3D
       icon: fab fa-github
   - codepen:
       name: CodePen
@@ -177,7 +177,7 @@ links:
       icon: fas fa-key
   - book:
       name: Search
-      show: true
+      show: false
       href: https://biblioteca-anatomica-3d.github.io/BodyParts3D/
       icon: fas fa-book
   - search:
